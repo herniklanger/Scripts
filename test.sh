@@ -16,5 +16,8 @@ echo "$changes"
 
 if [ -z "$changes" ]
   then
-  echo "${branches[0]} is will be bransh"
+  echo "${branches[0]} no uncommidet changes."
+  else
+  git add .
+  git commit
 fi
