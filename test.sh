@@ -19,5 +19,4 @@ if [ -z "$changes" ]
   echo "${branches[0]} no uncommidet changes."
   else
   git add .
-  git commit
 fi
