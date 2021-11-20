@@ -18,5 +18,12 @@ if [ -z "$changes" ]
   then
   echo "${branches[0]} no uncommidet changes."
   else
-  git add .
+#  git add .
+#  git commit -m "this is auto commidet"
+#  if [0]
+#    then
+#    autobransh="${branches[0]}--autogen"
+#    git checkout -b $autobransh
+#    git push --set-upstream origin test
+#  fi
 fi
