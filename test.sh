@@ -18,6 +18,7 @@ if [ -z "$changes" ]
   then
   echo "${branches[0]} no uncommidet changes."
   else
+  echo "${branches[0]}"
 #  git add .
 #  git commit -m "this is auto commidet"
 #  if [0]
